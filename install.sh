@@ -9,8 +9,7 @@ install_package() {
 
   if ! command -v "$cmd" &>/dev/null; then
     echo "Installing $pkg..."
-    sudo pacman -S update
-    sudo pacman -S install -y "$pkg"
+    sudo pacman -Syu --noconfirm --needed "$pkg"
   else
     echo "$pkg is already installed."
   fi
@@ -21,6 +20,7 @@ install_package git git
 install_package zsh zsh
 install_package tmux tmux
 install_package nvim neovim
+install_package unzip unzip
 
 # install ghostty
 if ! command -v ghostty &>/dev/null; then

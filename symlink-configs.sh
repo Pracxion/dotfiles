@@ -7,7 +7,7 @@ echo "Symlinking dotfiles"
 
 # Ghostty
 mkdir -p ~/.config/ghostty
-ln -sf "$DOTFILES/ghostty/config.toml" ~/.config/ghostty/config.toml
+ln -sf "$DOTFILES/ghostty/config" ~/.config/ghostty/config
 
 # Git
 ln -sf "$DOTFILES/git/.gitconfig" ~/.gitconfig

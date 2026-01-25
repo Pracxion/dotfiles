@@ -1,22 +1,2 @@
 add_newline = true
 
-format = """
-[┌─](bold #ff00ff)$directory$git_branch$git_status
-[└─](bold #00ffff)$character
-"""
-
-[directory]
-style = "bold #00ffff"
-format = "[ $path]($style) "
-
-[git_branch]
-symbol = " "
-style = "bold #ff00ff"
-format = "[on $symbol$branch]($style) "
-
-[git_status]
-style = "bold #ff5555"
-
-[character]
-success_symbol = "[❯](bold #00ff00)"
-error_symbol = "[❯](bold #ff0000)"

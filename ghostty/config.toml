@@ -1,0 +1,40 @@
+# Font
+font-family = "JetBrains Mono"
+font-size = 14
+
+# Window
+background-opacity = 0.85
+background-blur = true
+window-padding-x = 10
+window-padding-y = 10
+
+# Cursor
+cursor-style = "block"
+cursor-blink = true
+
+# Clipboard
+copy-on-select = true
+
+# Tabs & splits
+confirm-close-split = false
+confirm-close-tab = false
+
+# Theme (Nord-like)
+foreground = "#D8DEE9"
+background = "#2E3440"
+
+palette = [
+  "#3B4252", "#BF616A", "#A3BE8C", "#EBCB8B",
+  "#81A1C1", "#B48EAD", "#88C0D0", "#E5E9F0",
+  "#4C566A", "#BF616A", "#A3BE8C", "#EBCB8B",
+  "#81A1C1", "#B48EAD", "#8FBCBB", "#ECEFF4"
+]
+
+# Keybindings
+keybind = [
+  "ctrl+shift+c=copy",
+  "ctrl+shift+v=paste",
+  "ctrl+plus=increase_font_size",
+  "ctrl+minus=decrease_font_size",
+  "ctrl+0=reset_font_size"
+]

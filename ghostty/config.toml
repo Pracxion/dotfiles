@@ -38,3 +38,6 @@ keybind = [
   "ctrl+minus=decrease_font_size",
   "ctrl+0=reset_font_size"
 ]
+
+# shell
+shell = "/usr/bin/fish"

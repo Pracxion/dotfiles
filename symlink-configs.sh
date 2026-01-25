@@ -16,6 +16,9 @@ ln -sf "$DOTFILES/git/.gitignore_global" ~/.gitignore_global
 # Zsh
 ln -sf "$DOTFILES/zsh/.zshrc" ~/.zshrc
 
+# Starship
+ln -sf "$DOTFILES/starship/starship.toml" ~/.config/starship.toml
+
 # tmux
 ln -sf "$DOTFILES/tmux/.tmux.conf" ~/.tmux.conf
 

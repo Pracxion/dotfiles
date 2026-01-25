@@ -1,36 +1,63 @@
+# ======================
 # Font
-font-family = "JetBrains Mono"
+# ======================
+font-family = "JetBrainsMono Nerd Font"
 font-size = 14
 
+# ======================
 # Window
+# ======================
 background-opacity = 0.85
 background-blur = true
 window-padding-x = 10
 window-padding-y = 10
 
+# ======================
 # Cursor
+# ======================
 cursor-style = "block"
 cursor-blink = true
 
+# ======================
 # Clipboard
+# ======================
 copy-on-select = true
 
+# ======================
 # Tabs & splits
+# ======================
 confirm-close-split = false
 confirm-close-tab = false
 
-# Theme (Nord-like)
-foreground = "#D8DEE9"
-background = "#2E3440"
+# ======================
+# Retro 80s / Synthwave Theme
+# ======================
+foreground = "#00ffff"
+background = "#0b0014"
 
 palette = [
-  "#3B4252", "#BF616A", "#A3BE8C", "#EBCB8B",
-  "#81A1C1", "#B48EAD", "#88C0D0", "#E5E9F0",
-  "#4C566A", "#BF616A", "#A3BE8C", "#EBCB8B",
-  "#81A1C1", "#B48EAD", "#8FBCBB", "#ECEFF4"
+  "#0b0014", # black
+  "#ff0055", # red
+  "#00ff9c", # green
+  "#ffee00", # yellow
+  "#00b3ff", # blue
+  "#ff00ff", # magenta
+  "#00ffff", # cyan
+  "#ffffff", # white
+
+  "#4b1a5a", # bright black
+  "#ff3366", # bright red
+  "#33ffcc", # bright green
+  "#ffff66", # bright yellow
+  "#33ccff", # bright blue
+  "#ff66ff", # bright magenta
+  "#66ffff", # bright cyan
+  "#ffffff"  # bright white
 ]
 
+# ======================
 # Keybindings
+# ======================
 keybind = [
   "ctrl+shift+c=copy",
   "ctrl+shift+v=paste",
@@ -39,5 +66,7 @@ keybind = [
   "ctrl+0=reset_font_size"
 ]
 
-# shell
-shell = "/usr/bin/fish"
+# ======================
+# Shell
+# ======================
+shell = "/usr/bin/zsh"

@@ -18,6 +18,10 @@ install_package() {
 # install packages
 install_package git git
 install_package zsh zsh
+install_package zsh-completions zsh-completions
+install_package zsh-autosuggestions zsh-autosuggestions
+install_package zsh-syntax-highlighting zsh-syntax-highlighting
+install_package starship starship
 install_package tmux tmux
 install_package nvim neovim
 install_package unzip unzip

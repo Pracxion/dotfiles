@@ -24,11 +24,7 @@ setopt hist_ignore_dups share_history
 eval "$(starship init zsh)"
 
 # Aliases
-alias ll='ls -lah'
-alias gs='git status'
-alias ga='git add'
-alias gc='git commit'
-alias gp='git push'
+. ~/.zsh_aliases
 
 # Environment
 export EDITOR=nano

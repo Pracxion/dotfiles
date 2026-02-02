@@ -1,0 +1,38 @@
+# Pacman
+alias update="sudo pacman -Syu"
+alias p="pacman -Qs"
+alias install="sudo pacman -S"
+alias remove="sudo pacman -Rns"
+alias orphans="pacman -Qtdq"
+
+# File Management and Navigation
+alias {l,ls,la,ll}="ls -lahF"
+
+alias cd..="cd .."
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+alias cp="cp -i"
+alias mv="mv -i"
+alias mkdir="mkdir -p"
+
+# Directory Shortcuts
+alias slow="cd /mnt/slow"
+alias games="cd /mnt/games"
+alias code="cd /mnt/code"
+
+# Git
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gcm="git commit -m"
+alias gp="git push"
+
+# Utility
+alias s="source ~/.bashrc"
+alias grep="grep --color=auto"
+alias psmem="ps auxf | sort -nr -k 4 | head -10"
+alias df="df -h"
+alias du="du -h"

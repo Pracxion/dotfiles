@@ -31,7 +31,7 @@ alias gcm="git commit -m"
 alias gp="git push"
 
 # Utility
-alias s="source ~/.bashrc"
+alias s="source ~/.zshrc"
 alias grep="grep --color=auto"
 alias psmem="ps auxf | sort -nr -k 4 | head -10"
 alias df="df -h"

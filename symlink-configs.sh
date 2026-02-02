@@ -14,6 +14,7 @@ ln -sf "$DOTFILES/git/.gitconfig" ~/.gitconfig
 ln -sf "$DOTFILES/git/.gitignore_global" ~/.gitignore_global
 
 # Zsh
+ln -sf "$DOTFILES/zsh/.zshrc_aliases" ~/.zshrc_aliases
 ln -sf "$DOTFILES/zsh/.zshrc" ~/.zshrc
 
 # Starship

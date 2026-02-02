@@ -24,7 +24,7 @@ setopt hist_ignore_dups share_history
 eval "$(starship init zsh)"
 
 # Aliases
-. ~/.zsh_aliases
+source ~/.zshrc_aliases
 
 # Environment
 export EDITOR=nano

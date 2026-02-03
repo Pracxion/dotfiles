@@ -15,7 +15,7 @@ read -rp "email: " GIT_EMAIL
 sed \
   -e "s/{{GIT_NAME}}/$GIT_NAME/g" \
   -e "s/{{GIT_EMAIL}}/$GIT_EMAIL/g" \
-  "$DOTFILES/git/.gitconfig.template" > ~/.gitconfig
+  "$DOTFILES/git/.gitconfig" > ~/.gitconfig
 ln -sf "$DOTFILES/git/.gitignore_global" ~/.gitignore_global
 
 # Zsh

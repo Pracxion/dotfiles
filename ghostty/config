@@ -1,1 +1,4 @@
 theme = Catppuccin Mocha
+font-family = "JetBrains Mono"
+adjust-cell-height = 20%
+adjust-cell-width = 20%

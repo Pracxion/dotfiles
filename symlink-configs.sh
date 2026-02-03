@@ -10,7 +10,12 @@ mkdir -p ~/.config/ghostty
 ln -sf "$DOTFILES/ghostty/config" ~/.config/ghostty/config
 
 # Git
-ln -sf "$DOTFILES/git/.gitconfig" ~/.gitconfig
+read -rp "Git name: " GIT_NAME
+read -rp "email: " GIT_EMAIL
+sed \
+  -e "s/{{GIT_NAME}}/$GIT_NAME/g" \
+  -e "s/{{GIT_EMAIL}}/$GIT_EMAIL/g" \
+  "$DOTFILES/git/.gitconfig.template" > ~/.gitconfig
 ln -sf "$DOTFILES/git/.gitignore_global" ~/.gitignore_global
 
 # Zsh
